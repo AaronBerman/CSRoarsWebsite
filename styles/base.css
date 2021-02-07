@@ -47,7 +47,7 @@ body {
 
 /*----- Landing page-----*/
 .home-inner {
-    background-image: url(../images/kaley-dykstra-gtVrejEGdmM-unsplash3.png);
+    background-image: url(../images/kaley-dykstra-gtVrejEGdmM-unsplash5.png);
     background-repeat: no-repeat;
     background-attachment: local;
 }
@@ -90,19 +90,25 @@ body {
 }
 /*----- team page--------*/
 .team-inner {
-    background-image: url(../images/sandy-millar-OzyY3C8zVU8-unsplash2.jpg);
+    background-image: url(../images/sandy-millar-OzyY3C8zVU8-unsplash3.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+/*----- presentation page--------*/
+.presentation-inner {
+    background-image: url(../images/jewellery-2199902_640.jpg);
     background-position: contain;
     background-repeat: no-repeat;
 }
 /*----- deliverables page-----*/
 .deliverables-inner {
-    background-image: url(../images/sonny-ravesteijn--2jzHmDWCc8-unsplash2.jpg);
+    background-image: url(../images/sonny-ravesteijn--2jzHmDWCc8-unsplash4.jpg);
     background-position: contain;
     background-repeat: no-repeat;
 }
 /*----- references page-----*/
 .references-inner {
-    background-image: url(../images/stepan-vrany-tDkZCPZgwOw-unsplash2.jpg);
+    background-image: url(../images/stepan-vrany-tDkZCPZgwOw-unsplash3.jpg);
     background-position: contain;
     background-repeat: no-repeat;
 }
@@ -136,6 +142,59 @@ body {
     background-color: #60b0f4;
     margin: 0 auto;
 }
+
+#presentation-content {
+    background-color: rgb(230, 221, 211);
+    padding: 3rem 0;
+}
+#presentation-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#presetntation-content .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(48, 47, 47);
+    margin: 0 auto;
+}
+#presetntation-content h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+}
+#presentation-content h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+#presentation-content p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+#presentations .nav .nav-item .nav-link.active{
+    color:  rgb(48, 47, 47);
+    background-color: #60b0f4;
+}
+#presentation-content .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 32%;
+    position: relative;
+}
+#presentation-content .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* 4x3 Aspect Ratio */
+#presentation-content .iframe-container-4x3 {
+    padding-top: 75%;
+  }
 
 #deliverables-content {
     background-color: rgb(230, 221, 211);
@@ -227,6 +286,7 @@ body {
     background-color: rgb(230, 221, 211);
     padding: 2rem 0 3.5rem;
     border-radius: 0;
+    color: rgb(48, 47, 47);
 }
 h3.heading {
     font-size: 1.9rem;
@@ -237,6 +297,12 @@ h3.heading {
     width: 3rem;
     height: .2rem;
     background-color: #c2e9b5;
+    margin: 0 auto;
+}
+.alt-heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #505962;
     margin: 0 auto;
 }
 
@@ -251,7 +317,6 @@ h3.heading {
 }
 .card-role {
     font-size: 1.6rem;
-    font-weight: 700;
     text-transform: uppercase;
 }
 .card-text {
