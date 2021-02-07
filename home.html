@@ -18,18 +18,18 @@
     </style-->
   </head>
 
-  <body data-spy="scroll" data-target="#navbarResponsive">
+  <body>
     
     <!--Start Home Section-->
     <div id="home">
 
     <!--Start Navigation Section-->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="home.html"><img src="./images/crystal.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="responsiveNavbar">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link active" href="home.html">Home</a>
@@ -70,7 +70,7 @@
     <!--End Home Section-->
 
     <div id="problem-history" class="offset">
-      <div class="col-12 narrow text-center">
+      <div class="col-sm-12 narrow text-center">
         <h1>Background</h1>
         <p class="lead">Repositories of information, known as knowledge bases, come in two forms: machine readable and human readable. Machine readable repositories are encoded for interpretation by machines and makes them unsuitable for research by human eyes. Human-readable repositories store documents and physical texts that can be accessed by humans. While human readable knowledge bases are more interactive they require time-consuming prompting to provide solutions. Knowledge management soulutions at present, mostly in corporate and government environments, are mostly collaborative tools or templates in which the user has to follow organizational policy on layout and filestorage to create a searchable repository. For machine repositories they are used for automating help desks.
         </p>
@@ -91,25 +91,40 @@
     <div id="problem-characteristics" class="offset">
       <div class="narrow">
         
-        <div class="col-12 text-center">
+        <div class="col-sm-12 text-center">
           <h3 class="heading">Problem Characteristics</h3>
           <div class="heading-underline"></div>
         </div>
 
         <div class="row text-center">
 
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="characteristics">
               <h3>characteristic 1</h3>
               <p>description</p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="characteristics">
-              <img src="#">
-              <p>Infographic goes here</p>
+          <div class="col-sm-6">
+            <div class="characteristics rounded">
+              <img src="./images/StudentPerspective.png" style="width: 100%">
+              <p>Student Information Flow</p>
             </div>
           </div>
+          
+          <div class="row text-center">
+
+            <div class="col-sm-6">
+              <div class="characteristics">
+                <img src="./images/FacultyPerspective.png" style="width: 100%">
+                <p>Faculty Information Flow</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="characteristics rounded">
+                <h3>characteristic 2</h3>
+                <p>description</p>
+              </div>
+            </div>
           
         </div>
       </div>
@@ -118,7 +133,7 @@
     <!--Start Solution Statement-->
     <div id="solution-statement" class="offset">
       <div class="jumbotron">
-        <div class="col-12 narrow text-center">
+        <div class="col-sm-12 narrow text-center">
           <h1>Solution Description</h1>
           <p class="lead">Our goal is to build an extensible framework (ROARS) and a tool-set with which to collect and store electronic data in an organized structure, regardless of format or type. The framework can be extended throught he use of api calls. The base tool-set would include a webscraping utility, a utility to compare two versions of the same document, and a way to track changes to the document. The framework will allow for modules to be built for other types of processing of data after the initial storage and collection .</p>
         </div>
@@ -129,20 +144,20 @@
     <div id="solution-characteristics" class="offset">
       <div class="narrow">
         
-        <div class="col-12 text-center">
+        <div class="col-sm-12 text-center">
           <h3 class="heading">Solution Characteristics</h3>
           <div class="heading-underline"></div>
         </div>
 
         <div class="row text-center">
 
-          <div class="col-md-6 text-center">
+          <div class="col-sm-6 text-center">
             <div class="characteristics">
               <h3>characteristic 1</h3>
               <p>description</p>
             </div>
           </div>
-          <div class="col-md-6 text-center">
+          <div class="col-sm-6 text-center">
             <div class="characteristics">
               <img src="#">
               <p>Infographic goes here</p>

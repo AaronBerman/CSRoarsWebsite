@@ -172,6 +172,30 @@ body {
     color:  rgb(48, 47, 47);
     background-color: #60b0f4;
 }
+#home .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 0%;
+    position: relative;
+}
+#deliverables .iframe-container {
+    overflow: hidden;
+    padding-top: 57.25%;
+    padding-right: 32%;
+    position: relative;
+}
+#deliverables .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* 4x3 Aspect Ratio */
+#deliverables .iframe-container-4x3 {
+    padding-top: 75%;
+  }
 
 #reference-material {
     background-color: #c2e9b5;
@@ -190,7 +214,13 @@ body {
     margin: 0 0;
     text-align: left;
 }
-
+.dont-break-out {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: auto;
+  }
 /*----- section 3------ */
 .jumbotron {
     margin: 0px;
