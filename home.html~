@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS 410 Group Crystal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel ="stylesheet" href="./base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+    </style-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="home.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="deliverables.html">Deliverables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="references.html">References</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>CS ROARS (Temporary)</h1>
+      <p>Computer Science Repository of Academic Resources for Students (Temporary)</p>
+    </div>
+    <h2>Problem Description</h2>
+    <div class="container4" style="margin-top:30px">
+        
+        <center>Manual collection, sorting, filing, and change tracking in regards to  electronic reference material is tedious, cumbersome, and time consuming. With software automation easing the burden of software developers in both deployment and record keeping, why are educators relegated to doing it manually?</center>
+    </div>
+      <div class="container4" style="margin-top:30px">
+	<div class="col-sm-8">
+	</div>
+      <div>
+      <h3>Some Links</h3>
+      <p>link place holder</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Disabled</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+
+    
+    <div class="footer">
+      <div class="container">
+	<p class="text-muted">copyright&copy;2020</p>
+      </div>
+    </div>
+
+  </body>
+</html>
